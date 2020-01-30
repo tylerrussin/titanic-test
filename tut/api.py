@@ -8,6 +8,10 @@ import numpy as np
 # Your API definition
 app = Flask(__name__)
 
+@app.route('/')
+def hello():
+    print('Hello Welcome To My Predictive Model')
+
 @app.route('/predict', methods=['POST'])
 def predict():
     if lr:
