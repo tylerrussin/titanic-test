@@ -10,6 +10,9 @@ flask = "*"
 pandas = "*"
 sklearn = "*"
 numpy = "*"
+uuid = "*"
+decouple = "*"
+dotenv = "*"
 
 [requires]
 python_version = "3.6"
