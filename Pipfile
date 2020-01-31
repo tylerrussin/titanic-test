@@ -6,13 +6,13 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-flask = "*"
-pandas = "*"
-sklearn = "*"
+python-decouple = "*"
 numpy = "*"
+sklearn = "*"
+flask-sqlalchemy = "*"
 uuid = "*"
-decouple = "*"
-dotenv = "*"
+python-dotenv = "*"
+flask = "*"
 
 [requires]
 python_version = "3.6"
